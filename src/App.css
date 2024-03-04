@@ -1,0 +1,56 @@
+
+.box-shadow:hover{
+    box-shadow:5px 5px 0 0 rgb(255, 152, 78), 5px 5px 0 1px black;
+    border: 1px solid black;
+    transition-duration: 300ms;
+    transform: translateY(10px);
+    transform: translateX(-10px);
+}
+
+.text-underline{
+    text-decoration: underline 0.15em rgba(0, 0, 0, 0);
+    transition: text-decoration-color 300ms;
+}
+.text-underline:hover{
+    text-decoration: underline 0.15em rgba(0, 0, 0, 1);
+}
+
+
+.spacer{
+    aspect-ratio: 1920/100;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position:top;
+    background-size:cover;
+    background-image: url(./images/wave-haikei.svg);
+}
+
+.header{
+    height: 8vh;
+}
+.footer{
+    height:22vh;
+}
+.landing-page{
+    /* background-image: url(./images/pexels-mart-production-7718707.jpg); */
+    height: 70vh;
+    /* opacity: 0.5; */
+    background-repeat: no-repeat;
+    background-position:top;
+    background-size:cover;
+}
+.title {
+    font-family: "Sacramento", cursive;
+    font-weight: 400;
+    font-style: normal;
+    color: white;
+}
+.smallTitle{
+    font-family: "Comfortaa", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: large;
+    color: white;
+}
+
