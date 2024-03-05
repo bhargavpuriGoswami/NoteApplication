@@ -4,8 +4,6 @@ const config ={
     VITE_APPWRITE_DATABASE_ID: String(import.meta.env.VITE_APPWRITE_DATABASE_ID),
     VITE_APPWRIRE_COLLECTION_ID: String(import.meta.env.VITE_APPWRIRE_COLLECTION_ID),
     VITE_APPWRIRE_BUCKET_ID: String(import.meta.env.VITE_APPWRIRE_BUCKET_ID),
-    VITE_API_KEY: String(import.meta.env.VITE_API_KEY),
-    TINY_MCE_API_KEY: String(import.meta.env.TINY_MCE_API_KEY)
+    VITE_TINY_MCE_API_KEY: String(import.meta.env.VITE_TINY_MCE_API_KEY)
 }
-
 export default config

@@ -5,7 +5,7 @@ import {TextEditor} from "./index";
 import databaseService from "../appwrite/Database_service";
 import { useNavigate } from "react-router-dom";
 import { useSelector } from "react-redux";
-
+import config from "../config/config";
 function PostForm({post}) {
     const {register,handleSubmit, watch, setValue,control, getValues} = useForm(
         {
@@ -56,7 +56,6 @@ function PostForm({post}) {
     },[])
 
     useEffect(()=>{
-
         const  subscription = watch((value,{name})=>{
             if(name==="title"){
                 setValue("slug",slugTransform(value.title))

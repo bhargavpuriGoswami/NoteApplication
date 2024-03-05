@@ -13,7 +13,7 @@ export default function TextEditor({name, control, label, defaultValue=""}){
                 control={control}
                 render={({field:{onChange}})=>(
                     <Editor 
-                        apiKey= {conf.TINY_MCE_API_KEY}
+                        apiKey= {conf.VITE_TINY_MCE_API_KEY}
                         initialValue={defaultValue}
                         init={{
                             initialValue: defaultValue,
