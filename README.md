@@ -28,11 +28,11 @@ $ npm run dev
 This software uses the following open-source packages:
 
 - [Redux-toolkit](https://redux-toolkit.js.org/)
--[Tiny MCE](https://www.tiny.cloud/tinymce/)
--[Appwrite](https://appwrite.io/)
--[Framer motion](https://www.framer.com/motion/)
--[HTML react parser](https://www.npmjs.com/package/html-react-parser)
--[React hook form](https://react-hook-form.com/)
--[React router dom](https://reactrouter.com/en/main)
--[react-wavify](https://www.npmjs.com/package/react-wavify)
+- [Tiny MCE](https://www.tiny.cloud/tinymce/)
+- [Appwrite](https://appwrite.io/)
+- [Framer motion](https://www.framer.com/motion/)
+- [HTML react parser](https://www.npmjs.com/package/html-react-parser)
+- [React hook form](https://react-hook-form.com/)
+- [React router dom](https://reactrouter.com/en/main)
+- [react-wavify](https://www.npmjs.com/package/react-wavify)
 
