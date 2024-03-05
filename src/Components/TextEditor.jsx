@@ -1,4 +1,5 @@
 import React from 'react';
+import conf from '../config/config.js';
 import {Editor} from "@tinymce/tinymce-react";
 import { Controller } from 'react-hook-form';
 
@@ -12,7 +13,7 @@ export default function TextEditor({name, control, label, defaultValue=""}){
                 control={control}
                 render={({field:{onChange}})=>(
                     <Editor 
-                        apiKey='ohrcabzovx8jygf37bvl3tsxeqknf5s9lc6zi9k7o7cvga11'
+                        apiKey= {conf.TINY_MCE_API_KEY}
                         initialValue={defaultValue}
                         init={{
                             initialValue: defaultValue,
