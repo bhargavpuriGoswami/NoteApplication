@@ -76,7 +76,7 @@ function SignupForm() {
                                     })
                                 }
                             />
-                            <Button type="submit" className="w-full">Sign in</Button>
+                            <Button type="submit" className="w-full">Sign up</Button>
                         </div>
                     </form>
                 </div> 
